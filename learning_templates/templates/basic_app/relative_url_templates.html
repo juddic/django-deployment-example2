@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>WELCOME TO RELATIVE URL TEMPLATES</h1>
+<a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a>
+<!--basic_app from app_name in template tagging-->
+<p><a href="{% url 'admin:index' %}">ADMIN</a></p>
+<p><a href="{% url 'basic_app:index' %}">INDEX</a></p>
+</body>
+</html>
